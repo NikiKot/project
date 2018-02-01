@@ -5,29 +5,33 @@
     <link rel="shortcut icon" href="unnamed.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase|Gochi+Hand|Vibur" rel="stylesheet">
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
     <h1>Lab: Pixel Art Maker</h1>
-
+<div class="left">
     <h2>Choose Grid Size</h2>
 <form id="sizePicker">
         Grid Height:
         <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <br>
         Grid Width:
         <input type="number" id="inputWeight" name="width" min="1" value="1">
-  <input type="submit" id="submitButton" value="Create the table!">
+        <br>
+        <br>
+  <input type="submit" id="submitButton" value="Let's draw!">
 </form>
 
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
-
+</div>
+<div class="right">
     <h2>Design Canvas</h2>
     <table id="pixelCanvas"></table>
-
-
- <script src="designs.js"></script>
+</div>
+ <script src="design.js"></script>
 
 
 

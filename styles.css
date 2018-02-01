@@ -8,6 +8,8 @@ body {
 }
 
 h1 {
+
+
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
@@ -15,6 +17,10 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
+    color: black;
+    font-family: 'Delius Unicase', cursive;
+
+
 }
 
 h2:first-of-type {
@@ -52,6 +58,8 @@ input[type=number] {
      background-color: lightgreen;
      padding:10px;
      border: none;
+     outline: none;
+     font-family: 'Delius Unicase', cursive;
 
 }
 
@@ -59,4 +67,18 @@ input[type=number] {
     background-color: #4CAF50; /* Green */
     color: white;
     border:none;
+}
+
+.left{
+  padding-top: 40px;
+  float:left;
+  text-align: center;
+  width: 30%;
+}
+
+.right{
+  padding-top: 40px;
+  float:right;
+  text-align: center;
+  width:70%;
 }
